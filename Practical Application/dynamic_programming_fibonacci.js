@@ -8,3 +8,10 @@ const DYNAMIC_PROG_FIB = n => {
   FIB_CACHE[n] = DYNAMIC_PROG_FIB(n - 1) + DYNAMIC_PROG_FIB(n - 2);
   return FIB_CACHE[n];
 };
+
+// Naive/Non-Dynamic Programming implementation example
+
+const NAIVE_FIB = n => {
+  if (n === 1 || n === 2) { return 1; }
+  return NAIVE_FIB(n - 1) + NAIVE_FIB(n - 2);
+};
