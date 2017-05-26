@@ -13,4 +13,4 @@ const BINARY_SEARCH = (array, target) => {
       return right + mid + 1;
     }
   }
-}
+};
