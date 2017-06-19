@@ -18,15 +18,3 @@ const SUMMABLE_YEARS = year => {
 const YEAR_IS_SUMMABLE = year => {
   return Math.floor(year / 100) + (year % 100) === Math.floor(year / 10) % 100;
 };
-
-// Write a function that takes a string and returns true if it's a palindrome,
-// and false otherwise.
-
-const IS_PALINDROME = string => {
-  for (let i = 0; i < string.length / 2; i++) {
-    if (string[i] !== string[string.length - 1 - i]) {
-      return false;
-    }
-  }
-  return true;
-};

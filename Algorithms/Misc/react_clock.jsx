@@ -1,5 +1,5 @@
 // Build a digital clock with React that displays the current (west coast) time
-// (non-military). Single digits must be padded and the actual time can only be
+// (non-military). Single digits must be padded and the actual time may only be
 // requested once.
 
 // root.jsx
